@@ -16,9 +16,7 @@ function printLongestAndShortestNames(namesStr){
         if (namesStr.charAt(i) !== ','){
             currName += namesStr.charAt(i)
         } else {
-            if (currName.length < shortestName.length) {
-                shortestName = currName
-            }
+            if (currName.length < shortestName.length) shortestName = currName
             if (currName.length > longestName.length) longestName = currName
             
             currName = ''
