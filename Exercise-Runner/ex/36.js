@@ -1,8 +1,14 @@
 'use strict'
-// Exercise 36 - Longest and Shortest Names
-// Implement a function which receives a string of comma separated names, for example: 'Igal,Moshe,Haim',and prints the longest and shortest names.
 
-// Tip: use the function indexOf. note that the function accepts two parameters.
+// Exercise 36 - Longest and Shortest Names
+
+// Implement a function which receives a string of 
+// comma separated names,
+// for example: 'Igal,Moshe,Haim'
+// and prints the longest and shortest names.
+
+// Tip: use the function indexOf. 
+// note that the function accepts two parameters.
 
 printLongestAndShortestNames('Igal,Moshe,Haim,Adi,Jo')
 
